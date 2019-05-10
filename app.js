@@ -11,7 +11,7 @@ fs.createReadStream('data/wwc.csv')
     match.title = row.home_team + " v " + row.away_team;
     match.start = [parseInt(row.date.split("-")[0]), parseInt(row.date.split("-")[1]), parseInt(row.date.split("-")[2]), parseInt(row.time.split(":")[0])-parseInt(row.tz.split("C")[1]), parseInt(row.time.split(":")[1])];
     match.duration = {hours: 2};
-    match.description = row.phase + "\nMatch" + row.id;
+    match.description = row.phase + "\nMatch " + row.id;
     matches.push(match);
   })
   .on('end', () => {
