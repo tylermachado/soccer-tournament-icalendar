@@ -1,0 +1,19 @@
+{
+  "name": "soccer-calendar",
+  "version": "1.0.0",
+  "description": "Creates .ICS calendar files from CSV files, meant to create downloadable match schedules for upcoming international football (soccer) tournaments.",
+  "main": "app.js",
+  "dependencies": {
+    "csv-parser": "^2.2.0",
+    "ics": "^2.13.2",
+    "fs": "^0.0.1-security",
+    "csv": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
