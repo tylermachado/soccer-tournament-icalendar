@@ -1,0 +1,32 @@
+id,date,time,home_team,away_team,phase,tz
+1,2019-06-15,19:30,Canada,Martinique,Group A,UTC-4
+2,2019-06-15,22:00,Mexico,Cuba,Group A,UTC-4
+9,2019-06-19,20:00,Cuba,Martinique,Group A,UTC-4
+10,2019-06-19,22:30,Mexico,Canada,Group A,UTC-4
+17,2019-06-23,18:00,Canada,Cuba,Group A,UTC-4
+18,2019-06-23,20:30,Martinique,Mexico,Group A,UTC-4
+3,2019-06-16,18:00,Haiti,Bermuda,Group B,UTC-4
+4,2019-06-16,20:30,Costa Rica,Nicaragua,Group B,UTC-4
+11,2019-06-20,19:00,Nicaragua,Haiti,Group B,UTC-4
+12,2019-06-20,21:30,Costa Rica,Bermuda,Group B,UTC-4
+19,2019-06-24,18:30,Bermuda,Nicaragua,Group B,UTC-4
+20,2019-06-24,21:00,Haiti,Costa Rica,Group B,UTC-4
+5,2019-06-17,19:00,Curaçao,El Salvador,Group C,UTC-4
+6,2019-06-17,21:30,Jamaica,Honduras,Group C,UTC-4
+13,2019-06-21,19:00,El Salvador,Jamaica,Group C,UTC-4
+14,2019-06-21,21:30,Honduras,Curaçao,Group C,UTC-4
+21,2019-06-25,20:00,Jamaica,Curaçao,Group C,UTC-4
+22,2019-06-25,22:30,Honduras,El Salvador,Group C,UTC-4
+7,2019-06-18,19:30,Panama,Trinidad and Tobago,Group D,UTC-4
+8,2019-06-18,22:00,United States,Guyana,Group D,UTC-4
+15,2019-06-22,17:30,Guyana,Panama,Group D,UTC-4
+16,2019-06-22,20:00,United States,Trinidad and Tobago,Group D,UTC-4
+23,2019-06-26,18:30,Trinidad and Tobago,Guyana,Group D,UTC-4
+24,2019-06-26,21:00,Panama,United States,Group D,UTC-4
+25,2019-06-29,19:00,Winner Group B,Runner-up Group A,QF,UTC-4
+26,2019-06-29,22:00,Winner Group A,Runner-up Group B,QF,UTC-4
+27,2019-06-30,17:30,Winner Group C,Runner-up Group D,QF,UTC-4
+28,2019-06-30,20:30,Winner Group D,Runner-up Group C,QF,UTC-4
+29,2019-07-02,22:30,Winner Match 25,Winner Match 26,SF,UTC-4
+30,2019-07-03,21:30,Winner Match 27,Winner Match 28,SF,UTC-4
+31,2019-07-07,21:15,Winner Match 29,Winner Match 30,Final,UTC-4

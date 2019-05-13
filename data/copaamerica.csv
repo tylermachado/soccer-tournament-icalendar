@@ -1,0 +1,27 @@
+id,date,time,home_team,away_team,phase,tz
+1,2019-06-14,21:30,Brazil,Bolivia,Group A,UTC-3
+2,2019-06-15,16:00,Venezuela,Peru,Group A,UTC-3
+8,2019-06-18,18:30,Bolivia,Peru,Group A,UTC-3
+7,2019-06-18,21:30,Brazil,Venezuela,Group A,UTC-3
+13,2019-06-22,16:00,Peru,Brazil,Group A,UTC-3
+14,2019-06-22,16:00,Bolivia,Venezuela,Group A,UTC-3
+3,2019-06-15,19:00,Argentina,Colombia,Group B,UTC-3
+4,2019-06-16,16:00,Paraguay,Qatar,Group B,UTC-3
+10,2019-06-19,18:30,Colombia,Qatar,Group B,UTC-3
+9,2019-06-19,21:30,Argentina,Paraguay,Group B,UTC-3
+15,2019-06-23,16:00,Qatar,Argentina,Group B,UTC-3
+16,2019-06-23,16:00,Colombia,Paraguay,Group B,UTC-3
+5,2019-06-16,19:00,Uruguay,Ecuador,Group C,UTC-3
+6,2019-06-17,20:00,Japan,Chile,Group C,UTC-3
+11,2019-06-20,20:00,Uruguay,Japan,Group C,UTC-3
+12,2019-06-21,20:00,Ecuador,Chile,Group C,UTC-3
+17,2019-06-24,20:00,Chile,Uruguay,Group C,UTC-3
+18,2019-06-24,20:00,Ecuador,Japan,Group C,UTC-3
+19,2019-06-27,21:30,Winner Group A,3rd Group B/C,QF,UTC-3
+21,2019-06-28,16:00,Runner-up Group A,Runner-up Group B,QF,UTC-3
+20,2019-06-28,20:00,Winner Group B,Runner-up Group C,QF,UTC-3
+22,2019-06-29,16:00,Winner Group C,3rd Group A/B,QF,UTC-3
+23,2019-07-02,21:30,Winner Match 19,Winner Match 21,SF,UTC-3
+24,2019-07-03,21:30,Winner Match 20,Winner Match 22,SF,UTC-3
+25,2019-07-06,16:00,Loser Match 23,Loser Match 24,Third place game,UTC-3
+26,2019-07-07,17:00,Winner Match 23,Winner Match 24,Final,UTC-3

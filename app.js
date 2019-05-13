@@ -4,14 +4,30 @@ const csv = require('csv-parser');
 
 const matches = [];
 
-fs.createReadStream('data/wwc.csv')
+fs.createReadStream('data/copaamerica.csv')
   .pipe(csv())
   .on('data', (row) => {
     var match = new Object();
+    var matchMonth = parseInt(row.date.split("-")[1]);
+    var matchDate = parseInt(row.date.split("-")[2]);
+    var matchHour = (parseInt(row.time.split(":")[0]) - (parseFloat(row.tz.split("C")[1])));
+
+    if (matchHour > 23) {
+        matchHour = matchHour-24;
+        matchDate = matchDate + 1;
+        if (matchDate > 30) {
+            matchDate = matchDate - 30;
+            matchMonth = matchMonth + 1;
+        }
+    }
+
+    console.log(matchHour);
+
     match.title = row.home_team + " v " + row.away_team;
-    match.start = [parseInt(row.date.split("-")[0]), parseInt(row.date.split("-")[1]), parseInt(row.date.split("-")[2]), parseInt(row.time.split(":")[0])-parseInt(row.tz.split("C")[1]), parseInt(row.time.split(":")[1])];
+    match.start = [parseInt(row.date.split("-")[0]), matchMonth, matchDate, matchHour, parseInt(row.time.split(":")[1])];
     match.duration = {hours: 2};
     match.description = row.phase + "\nMatch " + row.id;
+
     matches.push(match);
   })
   .on('end', () => {
@@ -24,7 +40,7 @@ fs.createReadStream('data/wwc.csv')
         console.log('.csv file processed');
       }
 
-      fs.writeFile('dist/calendar.ics', value, (err) => {
+      fs.writeFile('dist/copaamerica.ics', value, (err) => {
         if (err) throw err;
         console.log('.ics calendar file saved');
       });
