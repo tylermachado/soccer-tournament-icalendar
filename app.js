@@ -51,7 +51,7 @@ fs.readdir(directoryPath, function (err, files) {
                 console.log('.csv file processed');
               }
 
-              fs.writeFile('dist/' + filename + '.ics', value, (err) => {
+              fs.writeFile('public/' + filename + '.ics', value, (err) => {
                 if (err) throw err;
                 console.log('.ics calendar file saved');
               });
