@@ -1,7 +1,7 @@
 id,date,time,home_team,away_team,phase,tz
 1,2019-06-07,21:00,France,South Korea,Group A,UTC+2
 2,2019-06-08,21:00,Norway,Nigeria,Group A,UTC+2
-3,2019-06-08,15:00,Germany,China PR,Group B,UTC+2
+3,2019-06-08,15:00,Germany,China,Group B,UTC+2
 4,2019-06-08,18:00,Spain,South Africa,Group B,UTC+2
 5,2019-06-09,13:00,Australia,Italy,Group C,UTC+2
 6,2019-06-09,15:30,Brazil,Jamaica,Group C,UTC+2
@@ -14,7 +14,7 @@ id,date,time,home_team,away_team,phase,tz
 13,2019-06-12,21:00,France,Norway,Group A,UTC+2
 14,2019-06-12,15:00,Nigeria,South Korea,Group A,UTC+2
 15,2019-06-12,18:00,Germany,Spain,Group B,UTC+2
-16,2019-06-13,21:00,South Africa,China PR,Group B,UTC+2
+16,2019-06-13,21:00,South Africa,China,Group B,UTC+2
 17,2019-06-13,18:00,Australia,Brazil,Group C,UTC+2
 18,2019-06-14,18:00,Jamaica,Italy,Group C,UTC+2
 19,2019-06-14,21:00,England,Argentina,Group D,UTC+2
@@ -26,7 +26,7 @@ id,date,time,home_team,away_team,phase,tz
 25,2019-06-17,21:00,Nigeria,France,Group A,UTC+2
 26,2019-06-17,21:00,South Korea,Norway,Group A,UTC+2
 27,2019-06-17,18:00,South Africa,Germany,Group B,UTC+2
-28,2019-06-17,18:00,China PR,Spain,Group B,UTC+2
+28,2019-06-17,18:00,China,Spain,Group B,UTC+2
 29,2019-06-18,21:00,Jamaica,Australia,Group C,UTC+2
 30,2019-06-18,21:00,Italy,Brazil,Group C,UTC+2
 31,2019-06-19,21:00,Japan,England,Group D,UTC+2
