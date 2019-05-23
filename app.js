@@ -35,7 +35,7 @@ fs.readdir(directoryPath, function (err, files) {
             }
 
             if (row.home_score && row.home_pk) {
-                match.title = "[" + initials + "] " + row.home_team + " " + row.home_score + ":" + row.away_score + " " + row.away_team + "(PKs " + row.home_pk + ":" + row.away_pk + ")";
+                match.title = "[" + initials + "] " + row.home_team + " " + row.home_score + ":" + row.away_score + " " + row.away_team + " (penalties " + row.home_pk + ":" + row.away_pk + ")";
             } else if (row.home_score) {
                 match.title = "[" + initials + "] " + row.home_team + " " + row.home_score + ":" + row.away_score + " " + row.away_team;
             } else {
