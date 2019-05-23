@@ -1,6 +1,6 @@
 id,date,time,home_team,away_team,phase,tz,home_score,away_score,home_pk,away_pk
-1,2019-06-07,21:00,France,South Korea,Group A,UTC+2,,,,
-2,2019-06-08,21:00,Norway,Nigeria,Group A,UTC+2,,,,
+1,2019-06-07,21:00,France,South Korea,Group A,UTC+2,0,0,,
+2,2019-06-08,21:00,Norway,Nigeria,Group A,UTC+2,1,1,3,4
 3,2019-06-08,15:00,Germany,China,Group B,UTC+2,,,,
 4,2019-06-08,18:00,Spain,South Africa,Group B,UTC+2,,,,
 5,2019-06-09,13:00,Australia,Italy,Group C,UTC+2,,,,
