@@ -34,7 +34,13 @@ fs.readdir(directoryPath, function (err, files) {
                 }
             }
 
-            match.title = "[" + initials + "] " + row.home_team + " v " + row.away_team;
+            if (row.home_score && row.home_pk) {
+                match.title = "[" + initials + "] " + row.home_team + " " + row.home_score + ":" + row.away_score + " " + row.away_team + "(PKs " + row.home_pk + ":" + row.away_pk + ")";
+            } else if (row.home_score) {
+                match.title = "[" + initials + "] " + row.home_team + " " + row.home_score + ":" + row.away_score + " " + row.away_team;
+            } else {
+                match.title = "[" + initials + "] " + row.home_team + " v " + row.away_team;
+            }
             match.start = [parseInt(row.date.split("-")[0]), matchMonth, matchDate, matchHour, parseInt(row.time.split(":")[1])];
             match.duration = {hours: 2};
             match.description = row.phase + "\nMatch " + row.id;
