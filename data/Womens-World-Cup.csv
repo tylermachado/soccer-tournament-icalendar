@@ -1,53 +1,53 @@
-id,date,time,home_team,away_team,phase,tz
-1,2019-06-07,21:00,France,South Korea,Group A,UTC+2
-2,2019-06-08,21:00,Norway,Nigeria,Group A,UTC+2
-3,2019-06-08,15:00,Germany,China,Group B,UTC+2
-4,2019-06-08,18:00,Spain,South Africa,Group B,UTC+2
-5,2019-06-09,13:00,Australia,Italy,Group C,UTC+2
-6,2019-06-09,15:30,Brazil,Jamaica,Group C,UTC+2
-7,2019-06-09,18:00,England,Scotland,Group D,UTC+2
-8,2019-06-10,18:00,Argentina,Japan,Group D,UTC+2
-9,2019-06-10,21:00,Canada,Cameroon,Group E,UTC+2
-10,2019-06-11,15:00,New Zealand,Netherlands,Group E,UTC+2
-11,2019-06-11,21:00,United States,Thailand,Group F,UTC+2
-12,2019-06-11,18:00,Chile,Sweden,Group F,UTC+2
-13,2019-06-12,21:00,France,Norway,Group A,UTC+2
-14,2019-06-12,15:00,Nigeria,South Korea,Group A,UTC+2
-15,2019-06-12,18:00,Germany,Spain,Group B,UTC+2
-16,2019-06-13,21:00,South Africa,China,Group B,UTC+2
-17,2019-06-13,18:00,Australia,Brazil,Group C,UTC+2
-18,2019-06-14,18:00,Jamaica,Italy,Group C,UTC+2
-19,2019-06-14,21:00,England,Argentina,Group D,UTC+2
-20,2019-06-14,15:00,Japan,Scotland,Group D,UTC+2
-21,2019-06-15,21:00,Canada,New Zealand,Group E,UTC+2
-22,2019-06-15,15:00,Netherlands,Cameroon,Group E,UTC+2
-23,2019-06-16,18:00,United States,Chile,Group F,UTC+2
-24,2019-06-16,15:00,Sweden,Thailand,Group F,UTC+2
-25,2019-06-17,21:00,Nigeria,France,Group A,UTC+2
-26,2019-06-17,21:00,South Korea,Norway,Group A,UTC+2
-27,2019-06-17,18:00,South Africa,Germany,Group B,UTC+2
-28,2019-06-17,18:00,China,Spain,Group B,UTC+2
-29,2019-06-18,21:00,Jamaica,Australia,Group C,UTC+2
-30,2019-06-18,21:00,Italy,Brazil,Group C,UTC+2
-31,2019-06-19,21:00,Japan,England,Group D,UTC+2
-32,2019-06-19,21:00,Scotland,Argentina,Group D,UTC+2
-33,2019-06-20,18:00,Netherlands,Canada,Group E,UTC+2
-34,2019-06-20,18:00,Cameroon,New Zealand,Group E,UTC+2
-35,2019-06-20,21:00,Sweden,United States,Group F,UTC+2
-36,2019-06-20,21:00,Thailand,Chile,Group F,UTC+2
-37,2019-06-22,21:00,Runners-up Group A,Runners-up Group C,R16,UTC+2
-38,2019-06-22,17:30,Winners Group B,3rd Group A / C / D,R16,UTC+2
-39,2019-06-23,17:30,Winners Group D,3rd Group B / E / F,R16,UTC+2
-40,2019-06-23,21:00,Winners Group A,3rd Group C / D / E,R16,UTC+2
-41,2019-06-24,18:00,Runners-up Group B,Winners Group F,R16,UTC+2
-42,2019-06-24,21:00,Runners-up Group F,Runners-up Group E,R16,UTC+2
-43,2019-06-25,18:00,Winners Group C,3rd Group A / B / F,R16,UTC+2
-44,2019-06-25,21:00,Winners Group E,Runners-up Group D,R16,UTC+2
-45,2019-06-27,21:00,Winners Match 37,Winners Match 39,QF,UTC+2
-46,2019-06-28,21:00,Winners Match 40,Winners Match 41,QF,UTC+2
-47,2019-06-29,15:00,Winners Match 43,Winners Match 44,QF,UTC+2
-48,2019-06-29,18:30,Winners Match 38,Winners Match 42,QF,UTC+2
-49,2019-07-02,21:00,Winners Match 45,Winners Match 46,SF,UTC+2
-50,2019-07-03,21:00,Winners Match 47,Winners Match 48,SF,UTC+2
-51,2019-07-06,17:00,Losers Match 49,Losers Match 50,Third place game,UTC+2
-52,2019-07-07,17:00,Winners Match 49,Winners Match 50,Final,UTC+2
+id,date,time,home_team,away_team,phase,tz,home_score,away_score,home_pk,away_pk
+1,2019-06-07,21:00,France,South Korea,Group A,UTC+2,,,,
+2,2019-06-08,21:00,Norway,Nigeria,Group A,UTC+2,,,,
+3,2019-06-08,15:00,Germany,China,Group B,UTC+2,,,,
+4,2019-06-08,18:00,Spain,South Africa,Group B,UTC+2,,,,
+5,2019-06-09,13:00,Australia,Italy,Group C,UTC+2,,,,
+6,2019-06-09,15:30,Brazil,Jamaica,Group C,UTC+2,,,,
+7,2019-06-09,18:00,England,Scotland,Group D,UTC+2,,,,
+8,2019-06-10,18:00,Argentina,Japan,Group D,UTC+2,,,,
+9,2019-06-10,21:00,Canada,Cameroon,Group E,UTC+2,,,,
+10,2019-06-11,15:00,New Zealand,Netherlands,Group E,UTC+2,,,,
+11,2019-06-11,21:00,United States,Thailand,Group F,UTC+2,,,,
+12,2019-06-11,18:00,Chile,Sweden,Group F,UTC+2,,,,
+13,2019-06-12,21:00,France,Norway,Group A,UTC+2,,,,
+14,2019-06-12,15:00,Nigeria,South Korea,Group A,UTC+2,,,,
+15,2019-06-12,18:00,Germany,Spain,Group B,UTC+2,,,,
+16,2019-06-13,21:00,South Africa,China,Group B,UTC+2,,,,
+17,2019-06-13,18:00,Australia,Brazil,Group C,UTC+2,,,,
+18,2019-06-14,18:00,Jamaica,Italy,Group C,UTC+2,,,,
+19,2019-06-14,21:00,England,Argentina,Group D,UTC+2,,,,
+20,2019-06-14,15:00,Japan,Scotland,Group D,UTC+2,,,,
+21,2019-06-15,21:00,Canada,New Zealand,Group E,UTC+2,,,,
+22,2019-06-15,15:00,Netherlands,Cameroon,Group E,UTC+2,,,,
+23,2019-06-16,18:00,United States,Chile,Group F,UTC+2,,,,
+24,2019-06-16,15:00,Sweden,Thailand,Group F,UTC+2,,,,
+25,2019-06-17,21:00,Nigeria,France,Group A,UTC+2,,,,
+26,2019-06-17,21:00,South Korea,Norway,Group A,UTC+2,,,,
+27,2019-06-17,18:00,South Africa,Germany,Group B,UTC+2,,,,
+28,2019-06-17,18:00,China,Spain,Group B,UTC+2,,,,
+29,2019-06-18,21:00,Jamaica,Australia,Group C,UTC+2,,,,
+30,2019-06-18,21:00,Italy,Brazil,Group C,UTC+2,,,,
+31,2019-06-19,21:00,Japan,England,Group D,UTC+2,,,,
+32,2019-06-19,21:00,Scotland,Argentina,Group D,UTC+2,,,,
+33,2019-06-20,18:00,Netherlands,Canada,Group E,UTC+2,,,,
+34,2019-06-20,18:00,Cameroon,New Zealand,Group E,UTC+2,,,,
+35,2019-06-20,21:00,Sweden,United States,Group F,UTC+2,,,,
+36,2019-06-20,21:00,Thailand,Chile,Group F,UTC+2,,,,
+37,2019-06-22,21:00,Runners-up Group A,Runners-up Group C,R16,UTC+2,,,,
+38,2019-06-22,17:30,Winners Group B,3rd Group A / C / D,R16,UTC+2,,,,
+39,2019-06-23,17:30,Winners Group D,3rd Group B / E / F,R16,UTC+2,,,,
+40,2019-06-23,21:00,Winners Group A,3rd Group C / D / E,R16,UTC+2,,,,
+41,2019-06-24,18:00,Runners-up Group B,Winners Group F,R16,UTC+2,,,,
+42,2019-06-24,21:00,Runners-up Group F,Runners-up Group E,R16,UTC+2,,,,
+43,2019-06-25,18:00,Winners Group C,3rd Group A / B / F,R16,UTC+2,,,,
+44,2019-06-25,21:00,Winners Group E,Runners-up Group D,R16,UTC+2,,,,
+45,2019-06-27,21:00,Winners Match 37,Winners Match 39,QF,UTC+2,,,,
+46,2019-06-28,21:00,Winners Match 40,Winners Match 41,QF,UTC+2,,,,
+47,2019-06-29,15:00,Winners Match 43,Winners Match 44,QF,UTC+2,,,,
+48,2019-06-29,18:30,Winners Match 38,Winners Match 42,QF,UTC+2,,,,
+49,2019-07-02,21:00,Winners Match 45,Winners Match 46,SF,UTC+2,,,,
+50,2019-07-03,21:00,Winners Match 47,Winners Match 48,SF,UTC+2,,,,
+51,2019-07-06,17:00,Losers Match 49,Losers Match 50,Third place game,UTC+2,,,,
+52,2019-07-07,17:00,Winners Match 49,Winners Match 50,Final,UTC+2,,,,
