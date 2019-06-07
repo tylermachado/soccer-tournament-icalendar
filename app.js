@@ -13,7 +13,7 @@ fs.readdir(directoryPath, function (err, files) {
 
     files.forEach(function (file) {
         const matches = [];
-
+        if (file !== ".DS_Store") {
         var filename = file.split(".")[0];
         var initials = filename.match(/\b(\w)/g).join('');
 
@@ -62,5 +62,5 @@ fs.readdir(directoryPath, function (err, files) {
                 console.log('.ics calendar file saved');
               });
           });
-    });
+    }});
 });
