@@ -4,7 +4,7 @@ id,date,time,home_team,home_score,away_score,away_team,phase,tz,home_pk,away_pk
 3,2019-06-15,19:00,Argentina,0,2,Colombia,Group B,UTC-3,,
 4,2019-06-16,16:00,Paraguay,2,2,Qatar,Group B,UTC-3,,
 5,2019-06-16,19:00,Uruguay,4,0,Ecuador,Group C,UTC-3,,
-6,2019-06-17,20:00,Japan,,,Chile,Group C,UTC-3,,
+6,2019-06-17,20:00,Japan,0,4,Chile,Group C,UTC-3,,
 8,2019-06-18,18:30,Bolivia,,,Peru,Group A,UTC-3,,
 7,2019-06-18,21:30,Brazil,,,Venezuela,Group A,UTC-3,,
 10,2019-06-19,18:30,Colombia,,,Qatar,Group B,UTC-3,,
