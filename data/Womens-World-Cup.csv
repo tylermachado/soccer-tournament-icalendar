@@ -43,7 +43,7 @@ id,date,time,home_team,home_score,away_score,away_team,phase,tz,home_pk,away_pk
 42,2019-06-24,21:00,Sweden,1,0,Canada,R16,UTC+2,,
 43,2019-06-25,18:00,Italy,2,0,China,R16,UTC+2,,
 44,2019-06-25,21:00,Netherlands,2,1,Japan,R16,UTC+2,,
-45,2019-06-27,21:00,Norway,,,England,QF,UTC+2,,
+45,2019-06-27,21:00,Norway,0,3,England,QF,UTC+2,,
 46,2019-06-28,21:00,France,,,USA,QF,UTC+2,,
 47,2019-06-29,15:00,Italy,,,Netherlands,QF,UTC+2,,
 48,2019-06-29,18:30,Germany,,,Sweden,QF,UTC+2,,
