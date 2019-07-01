@@ -18,10 +18,10 @@ id,date,time,home_team,home_score,away_score,away_team,phase,tz,home_pk,away_pk
 17,2019-06-24,20:00,Chile,0,1,Uruguay,Group C,UTC-3,,
 18,2019-06-24,20:00,Ecuador,1,1,Japan,Group C,UTC-3,,
 19,2019-06-27,21:30,Brazil,0,0,Paraguay,QF,UTC-3,4,3
-21,2019-06-28,16:00,Venezuela,,,Argentina,QF,UTC-3,,
-20,2019-06-28,20:00,Colombia,,,Chile,QF,UTC-3,,
-22,2019-06-29,16:00,Uruguay,,,Peru,QF,UTC-3,,
-23,2019-07-02,21:30,Winner Match 19,,,Winner Match 21,SF,UTC-3,,
-24,2019-07-03,21:30,Winner Match 20,,,Winner Match 22,SF,UTC-3,,
+21,2019-06-28,16:00,Venezuela,0,2,Argentina,QF,UTC-3,,
+20,2019-06-28,20:00,Colombia,0,0,Chile,QF,UTC-3,4,5
+22,2019-06-29,16:00,Uruguay,0,0,Peru,QF,UTC-3,4,5
+23,2019-07-02,21:30,Brazil,,,Argentina,SF,UTC-3,,
+24,2019-07-03,21:30,Chile,,,Peru,SF,UTC-3,,
 25,2019-07-06,16:00,Loser Match 23,,,Loser Match 24,Third place game,UTC-3,,
 26,2019-07-07,17:00,Winner Match 23,,,Winner Match 24,Final,UTC-3,,
