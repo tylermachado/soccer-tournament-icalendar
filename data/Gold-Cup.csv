@@ -27,6 +27,6 @@ id,date,time,home_team,home_score,away_score,away_team,phase,tz,home_pk,away_pk
 26,2019-06-29,22:00,Mexico,1,1,Costa Rica,QF,UTC-4,5,4
 27,2019-06-30,17:30,Jamaica,1,0,Panama,QF,UTC-4,,
 28,2019-06-30,20:30,USA,1,0,Curaçao,QF,UTC-4,,
-29,2019-07-02,22:30,Haiti,,,Mexico,SF,UTC-4,,
+29,2019-07-02,22:30,Haiti,0,1,Mexico,SF,UTC-4,,
 30,2019-07-03,21:30,Jamaica,,,USA,SF,UTC-4,,
-31,2019-07-07,21:15,Winner Match 29,,,Winner Match 30,Final,UTC-4,,
+31,2019-07-07,21:15,Mexico,,,Winner Match 30,Final,UTC-4,,
